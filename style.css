@@ -363,21 +363,21 @@ body {
   padding: 10px 0 10px 0;
   font-family: Determination Sans Web;
 }
-
+.text-animation{
+  margin-left: 2px;
+}
 .text-animation .typewriter .typewriter_caret {
   animation: blink 1.2s infinite;
   color: #fff;
   font-size: 45px;
   display: none;
   font-family: Determination Sans Web;
-  
 }
 .typewriter_carettwo {
   color: #fff;
   font-size: 45px;
   font-family: Determination Sans Web;
   display: none;
-  margin-left: -5px;
 }
 
 @keyframes blink {
