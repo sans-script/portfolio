@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" 
+      type="image/ico" 
+      href="./Img/logo-A.ico" />
+</head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Open+Sans:wght@500&family=Roboto+Mono&display=swap"
+    rel="stylesheet">
+  <title>Portifólio Alexandre Santos</title>
+</head>
+<body>
+  <div class="vertical-line"></div>
+  <header class="header">
+    <nav class="nav">
+      <h1 class="logo">Alex Sans</h1>
+      <button class="hamburger"></button>
+      <ul class="nav-list">
+        <li><a href="#about">Welcome</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <ul class="social">
+          <li><a href="https://codepen.io/sans-script"><i class="fa-brands fa-codepen"></i></a></li>
+          <li><a href="https://github.com/sans-script"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="https://www.instagram.com/_sans.alex/"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/sansalex/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+        <li class="connect"><a href="#">Let's Connect <i class="fa-solid fa-arrow-right"></i></a></li>
+        <li class="navcopy">©2024 Alexandre Santos</li>
+      </ul>
+    </nav>
+  </header>
+  <section id="about" class="section1">
+    <div class="about">
+      <div class="welcome">
+        <h3>Welcome to my Portfolio</h3>
+      </div>
+      <div class="text-animation">
+        <div class="frame">
+          <matrix></matrix>
+          <div class="typewriter"><span id="typewriter_heading"><span class="typewriter_caret heading">|</span></span>
+          </div>
+          <div class="typewriter">
+            <span id="typewriter_body"></span>
+            <span class="typewriter_caret body">|</span>
+            <span class="typewriter_carettwo body">|</span>
+          </div>
+        </div>
+      </div>
+      <p class="text-about">
+        Seja bem-vindo ao meu portfólio pessoal, um espaço dedicado à exibição dos meus melhores trabalhos. Sinta-se à
+        vontade para explorá-los em tela cheia, clonar meus repositórios ou simplesmente navegar. Sou um desenvolvedor
+        trainee Front-End na startup DevOps. Atualmente, estou cursando o Bacharelado Interdisciplinar em Ciência e
+        Tecnologia na
+        Universidade Federal do Maranhão, onde continuo a expandir meu conhecimento e aprimorar minhas habilidades.
+        Estou entusiasmado em compartilhar meu trabalho com você :). Let's get started!
+      </p>
+      <p class="text-connect"><a href="#">Let's Connect <i class="fa-solid fa-arrow-right"></i></a></i></p>
+    </div>
+    <div class="about-img">
+      <div class="wrap">
+        <div class="cube">
+          <div class="front"><img src="Img/html.png" alt="" srcset=""></div>
+          <div class="core">Alex</div>
+          <div class="back"><img src="Img/html.png" alt="" srcset=""></div>
+          <div class="top"><img src="Img/css-3.png" alt="" srcset=""></div>
+          <div class="bottom"><img src="Img/css-3.png" alt="" srcset=""></div>
+          <div class="left"><img src="Img/js.png" alt="" srcset=""></div>
+          <div class="right"><img src="Img/js.png" alt="" srcset=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="skillsdiv">
+    <h1 class="skills">Skills</h1>
+  </div>
+  <section id="skills" class="section2">
+    <div class="tools">
+      <div><img src="Img/html.png" alt=""></div>
+      <div><img src="Img/css-3.png" alt=""></div>
+      <div><img src="Img/js.png" alt=""></div>
+      <div><img src="Img/python.png" alt=""></div>
+      <div><img src="Img/node.png" alt=""></div>
+      <div><img src="Img/git.png" alt=""></div>
+      <!-- <div><img src="Img/electron.png" alt=""></div> -->
+    </div>
+  </section>
+  <div class="projectsdiv">
+    <h1 class="projects">Projects</h1>
+  </div>
+  <section id="projects" class="section3">
+    <button onclick="openFullscreen('Iframe0')">Abrir em tela cheia</button>
+    <iframe id="Iframe0" src="https://sans-script.github.io/Typing-Terminal-Effect/"></iframe>
+    <button onclick="openFullscreen('Iframe1')">Abrir em tela cheia</button>
+    <iframe id="Iframe1" src="https://sans-script.github.io/solar-system-cards/" scrolling="no"></iframe>
+    <button onclick="openFullscreen('Iframe2')">Abrir em tela cheia</button>
+    <iframe id="Iframe2" src="https://sans-script.github.io/paralax-scrolling/" scrolling="no"></iframe>
+    <button onclick="openFullscreen('Iframe3')">Abrir em tela cheia</button>
+    <iframe id="Iframe3" src="https://sans-script.github.io/CSS-Flex-Layout/" scrolling="no"></iframe>
+    <button onclick="openFullscreen('Iframe4')">Abrir em tela cheia</button>
+    <iframe id="Iframe4" src="https://sans-script.github.io/CSS-Grid-Layout/" scrolling="no"></iframe>
+    <button onclick="openFullscreen('Iframe5')">Abrir em tela cheia</button>
+    <iframe id="Iframe5" src="https://sans-script.github.io/undertale-text-box/" scrolling="no"></iframe>
+    <button onclick="openFullscreen('Iframe6')">Abrir em tela cheia</button>
+    <iframe id="Iframe6" src="https://sans-script.github.io/3D-Cube/" scrolling="no"></iframe>
+  </section>
+  <footer>
+    <ul>
+      <li><a href="https://codepen.io/sans-script"><i class="fa-brands fa-codepen"></i></a></li>
+      <li><a href="https://github.com/sans-script"><i class="fa-brands fa-github"></i></a></li>
+      <li><a href="https://www.instagram.com/_sans.alex/"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/sansalex/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+    </ul>
+    <p class="copy">©2024 Alexandre Santos</p>
+  </footer>
+  <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
