@@ -106,7 +106,7 @@ body {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 870px) {
   .wrap {
     display: none;
   }
@@ -156,7 +156,7 @@ body {
     transform: translate(100%);
     height: 100vh;
     background: #000;
-    clip-path: circle(100px at 90% -15%);
+    clip-path: circle(0 at 100% 0);
     transition: 1s ease-out;
     z-index: 1;
     flex-direction: column;
@@ -165,7 +165,6 @@ body {
     gap: 0;
     z-index: 1;
     pointer-events: none;
-    border-left: solid 1px #fff;
   }
 
   .nav-list ul {
@@ -531,75 +530,9 @@ iframe {
   height: 500px;
   border: 1px solid#fff;
 }
-
-.form {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.form form {
-  margin-top: 40px;
-  width: 500px;
-}
-
-.form form input,
-.form form textarea {
-  display: block;
-  border-radius: 3px;
-  box-sizing: border-box;
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-  border: none;
-  resize: none;
-  outline: none;
-  font: inherit;
-  font-size: 14px;
-  font-weight: normal;
-  color: #d1d2d2;
-  width: 100%;
-  padding: 18px;
-}
-
-.form ::-webkit-input-placeholder {
-  color: #5c666b;
-}
-
-.form ::-moz-placeholder {
-  color: #5c666b;
-  opacity: 1;
-}
-
-.form :-ms-input-placeholder {
-  color: #5c666b;
-}
-
-.form form input {
-  width: 100%;
-  height: 55px;
-  margin-bottom: 15px;
-}
-
-.form form textarea {
-  height: 100px;
-  margin-bottom: 20px;
-}
-
-.form form .btn {
-  border-radius: 3px;
-  background-color: #1f2022;
-  color: #ffffff;
-  border: 0;
-  padding: 15px 50px;
-  font-weight: bold;
+.socialfooter{
   cursor: pointer;
-  transition: 0.3s;
 }
-
-.form form .btn:hover {
-  background-color: #89ff00;
-}
-
 footer {
   list-style: none;
   margin: 0 auto;
