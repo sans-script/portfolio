@@ -137,6 +137,7 @@ body {
 
   footer {
     flex-direction: column;
+    z-index: -1;
   }
 
   .social {
