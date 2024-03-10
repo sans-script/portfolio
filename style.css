@@ -31,12 +31,10 @@ body {
   /* Posiciona a linha no centro horizontal da página */
   width: 1px;
   /* Largura da linha */
-  height: 100vh;
+  height:100vh;
   /* Altura da linha (100% da altura da viewport) */
   background-color: #fff;
-  /* Cor da linha */
-  z-index: -1;
-  /* Coloca a linha atrás de todos os elementos */
+  z-index: -9999;
 }
 
 .header {
@@ -571,4 +569,60 @@ footer ul {
   cursor: pointer;
   margin-top: 25px;
   margin-bottom: 20px;
+}
+.spotify{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+  padding: 40px;
+}
+.spotify img{
+  border: solid 1px #fff;
+  background: #000;
+  z-index: 1;
+}
+.spotify p{
+  margin-right: 234px;
+  margin-bottom: 15px;
+}
+ .fa-spotify{
+  color:#1DB954;
+}
+/*
+.fa-linkedin-in{
+  color: #0e76a8;
+}
+.fa-instagram{
+  background: linear-gradient(to bottom,#405DE6, 
+  #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #777737, #FCAF45, #FFDC80); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text;
+}
+.fa-github{
+  color: #fff;
+} */
+.imgbg {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  background: #fff;
+  height: 400px;
+  z-index: -1;
+  display: flex;
+  background-image: url("./Img/bg3.png");
+  background-size: cover;
+  background-position: center; 
+  /* flex-direction: column-reverse; */
+  
+}
+
+.imgbg4{
+  width: 100%;
+  margin-top: 300px;
+  height: 250px;
+  filter: blur(20px);
+  background-color: #000;
+  z-index: 1;
 }
