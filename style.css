@@ -54,11 +54,18 @@ body {
   align-items: center;
 }
 
-.logo {
-  font-size: 22px;
+.logo{
+  height: 40px;
+  width: 140px;
   color: #fff;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #000; */
 }
-
+.logo p{
+  margin-top: 10px;
+  font-size: 20px;
+}
 .nav-list {
   display: flex;
   list-style: none;
@@ -107,7 +114,9 @@ body {
   .wrap {
     display: none;
   }
-
+  .header{
+    background-color: rgba(0, 0, 0, 0);
+  }
   .navcopy {
     display: flex;
     margin-top: 200px;
