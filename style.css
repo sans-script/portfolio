@@ -134,10 +134,8 @@ body {
     display: block;
     z-index: 9999;
   }
-
   footer {
     flex-direction: column;
-    z-index: -1;
   }
 
   .social {
@@ -538,6 +536,10 @@ iframe {
   width: 90%;
   height: 500px;
   border: 1px solid#fff;
+  
+}
+.section3 iframe:last-child {
+  border-bottom: 2px solid #fff;
 }
 
 .socialfooter {
@@ -548,7 +550,7 @@ footer {
   list-style: none;
   margin: 0 auto;
   color: #fff;
-  height: 150px;
+  height: 100px;
   font-size: 22px;
   display: flex;
   align-items: center;
