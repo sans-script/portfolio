@@ -160,7 +160,6 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 0;
-    z-index: 9999;
     pointer-events: none;
   }
 
