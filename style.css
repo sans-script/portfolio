@@ -534,12 +534,15 @@ body {
 
 iframe {
   width: 90%;
+  background-color: #000;
   height: 500px;
   border: 1px solid#fff;
   
 }
 .section3 iframe:last-child {
-  border-bottom: 2px solid #fff;
+  border: none;
+  margin-top: -20px;
+  width: 100%;
 }
 
 .socialfooter {
