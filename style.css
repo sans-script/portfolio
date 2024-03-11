@@ -551,6 +551,9 @@ iframe {
 .socialfooter {
   cursor: pointer;
 }
+#starclick{
+  cursor:default;
+}
 
 footer {
   list-style: none;
