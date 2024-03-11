@@ -168,7 +168,7 @@ ul {
   }
   @media (max-width: 870px) {
     .ctn, .ctntwo{
-        transform: scale(0.4);
+        transform: scale(0.5);
     }
     .savectn{
         transform: scale(0.6);
