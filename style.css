@@ -54,7 +54,7 @@ body {
   align-items: center;
 }
 
-.logo{
+.logo {
   height: 40px;
   width: 140px;
   color: #fff;
@@ -62,10 +62,12 @@ body {
   flex-direction: row;
   /* background-color: #000; */
 }
-.logo p{
+
+.logo p {
   margin-top: 10px;
   font-size: 20px;
 }
+
 .nav-list {
   display: flex;
   list-style: none;
@@ -109,14 +111,24 @@ body {
 .navcopy {
   display: none;
 }
-
+@media (max-width: 870px) {
+  .spotify{
+    transform: scale(0.6);
+  }
+}
 @media (max-width: 870px) {
   .wrap {
     display: none;
   }
-  .header{
+
+  .form {
+    width: 100%;
+  }
+
+  .header {
     background-color: rgba(0, 0, 0, 0);
   }
+
   .navcopy {
     display: flex;
     margin-top: 200px;
@@ -134,6 +146,7 @@ body {
     display: block;
     z-index: 9999;
   }
+
   footer {
     flex-direction: column;
   }
@@ -531,7 +544,8 @@ body {
   flex: 1 1 350px;
   margin: 10px;
 }
-#Iframe7{
+
+#Iframe8 {
   border-bottom: 2px solid #fff;
 }
 
@@ -540,19 +554,22 @@ iframe {
   background-color: #000;
   height: 500px;
   border: 1px solid#fff;
-  
+
 }
+
 .section3 iframe:last-child {
   border: none;
   margin-top: -20px;
+  height: 200px;
   width: 100%;
 }
 
 .socialfooter {
   cursor: pointer;
 }
-#starclick{
-  cursor:default;
+
+#starclick {
+  cursor: default;
 }
 
 footer {
@@ -566,7 +583,7 @@ footer {
   justify-content: center;
   background: #000;
   font-size: 22px;
-  gap: 10px;
+  gap: 25px;
 }
 
 footer ul {
@@ -575,6 +592,118 @@ footer ul {
   gap: 22px;
   text-align: center;
   justify-content: center;
+}
+
+.formdiv {
+  display: flex;
+  justify-content: end;
+  width: 90%;
+  background-color: #000;
+  z-index: 1;
+}
+
+.sideform {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  width: 100%;
+  z-index: 1;
+}
+
+.form {
+  padding: 20px;
+  background-color: #000;
+  gap: 20px;
+  max-width: 500px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  border: 1px solid #fff;
+  background-color: #000;
+  padding: 10px;
+  color: #fff;
+  height: 50px;
+}
+
+.formdiv h1 {
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.form:-moz-placeholder {
+  color: #ccc;
+}
+
+textarea:-moz-placeholder {
+  color: #ccc;
+}
+
+.linecontact {
+  position: absolute;
+  margin-right: 25px;
+  margin-top: 363px;
+  width: 1px;
+  height: 21px;
+  background-color: #fff;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 1px solid #fff;
+  outline: 0;
+}
+
+textarea::-webkit-scrollbar {
+  width: 1em;
+}
+
+textarea::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.0);
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  width: 20px;
+  outline: none;
+}
+
+.formbtn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#btnSubmit {
+  cursor: pointer;
+}
+
+textarea {
+  padding: 18px 10px 0;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #000;
+  height: 80px;
+  align-items: center;
+}
+
+.form button {
+  font-family: "Inconsolata", monospace;
+  font-size: 15pt;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
 }
 
 .copy {
@@ -609,8 +738,9 @@ footer ul {
 }
 
 .spotify p {
-  margin-right: 234px;
+  margin-right: 225px;
   margin-bottom: 15px;
+  width: 100px;
 }
 
 .fa-spotify {

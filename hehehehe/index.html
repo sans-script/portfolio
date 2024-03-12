@@ -7,8 +7,8 @@
     <title>Undertale Save popup</title>
 </head>
 <body>
-    <div onclick="openFullscreen('Iframe0')" id="Iframe0" class="window">
-        <div onclick="frameLooper()" class="savebtn"><img src="Imgs/savepoint.gif" alt="" srcset="">
+    <div id="Iframe0" class="window">
+        <div onclick="frameLooper(); openFullscreen('Iframe0')" class="savebtn"><img src="Imgs/savepoint.gif" alt="" srcset="">
         </div>
         <div class="savectn">
             <div class="popup" id="popup">
@@ -40,18 +40,23 @@
         </audio>
         <div class="ctn hidden">
             <ul class="box" id="box">
-                <li><p class="ast">*</p></li>
+                <li>
+                    <p class="ast">*</p>
+                </li>
                 <li class="list" id="text"></li>
             </ul>
         </div>
-    </audio>
-    <div class="ctntwo hiddentwo">
-        <ul class="box" id="box">
-            <li><p class="ast">*</p></li>
-            <li class="listtwo" id="texttwo"></li>
-        </ul>
-    </div>
+        </audio>
+        <div class="ctntwo hiddentwo">
+            <ul class="box" id="box">
+                <li>
+                    <p class="ast">*</p>
+                </li>
+                <li class="listtwo" id="texttwo"></li>
+            </ul>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

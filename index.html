@@ -21,8 +21,8 @@
   rel="stylesheet">
 <title>Portifólio - Alexandre Santos</title>
 </head>
-<body>
-  <div class="imgbg">
+<body class="notranslate" translate="no">
+  <div id="about" class="imgbg">
     <div class="imgbg4"></div>
   </div>
   <div class="vertical-line"></div>
@@ -34,6 +34,7 @@
         <li><a href="#about" class="notranslate" translate="no">Welcome</a></li>
         <li><a href="#skills" class="notranslate" translate="no">Skills</a></li>
         <li><a href="#projects" class="notranslate" translate="no">Projects</a></li>
+        <!-- <li><a href="#contact" class="notranslate" translate="no">Contact</a></li> -->
         <ul class="social">
           <li><a href="https://codepen.io/sans-script"><i class="fa-brands fa-codepen"></i></a></li>
           <li><a href="https://github.com/sans-script"><i class="fa-brands fa-github"></i></a></li>
@@ -46,7 +47,7 @@
       </ul>
     </nav>
   </header>
-  <section id="about" class="section1">
+  <section class="section1">
     <div class="about">
       <div class="welcome">
         <h3 class="notranslate" translate="no">Welcome to my Portfolio</h3>
@@ -87,7 +88,7 @@
       </div>
     </div>
   </section>
-  <div class="spotify">
+  <div id="skills" class="spotify">
     <p><i class="fa-brands fa-spotify"></i> Ouvindo:</p>
     <img
       src="https://spotify-github-profile.vercel.app/api/view.svg?uid=ap0b5ngrzs5bzl771j7gx64dz&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=ap0b5ngrzs5bzl771j7gx64dz&cover_image=true&theme=novatorem&show_offline=true&background_color=000000&interchange=false&bar_color=ffffff&bar_color_cover=false"
@@ -96,7 +97,7 @@
   <div class="skillsdiv">
     <h1 class="skills" class="notranslate" translate="no">Skills</h1>
   </div>
-  <section id="skills" class="section2">
+  <section class="section2">
     <div class="tools">
       <div><img src="Img/html.png" alt=""></div>
       <div><img src="Img/css-3.png" alt=""></div>
@@ -108,9 +109,9 @@
     </div>
   </section>
   <div class="projectsdiv">
-    <h1 class="projects" class="notranslate" translate="no">Projects</h1>
+    <h1 id="projects" class="projects">Projects</h1>
   </div>
-  <section id="projects" class="section3">
+  <section class="section3">
     <button onclick="openFullscreen('Iframe1')">Abrir em tela cheia</button>
     <iframe id="Iframe1" src="https://sans-script.github.io/Typing-Terminal-Effect/"></iframe>
     <button onclick="openFullscreen('Iframe2')">Abrir em tela cheia</button>
@@ -122,13 +123,29 @@
     <button onclick="openFullscreen('Iframe5')">Abrir em tela cheia</button>
     <iframe id="Iframe5" src="https://sans-script.github.io/CSS-Grid-Layout/" scrolling="no"></iframe>
     <button onclick="openFullscreen('Iframe6')">Abrir em tela cheia</button>
-    <iframe id="Iframe6" src="https://sans-script.github.io/undertale-text-box/" scrolling="no"></iframe>
+    <iframe id="Iframe6" src="https://sans-script.github.io/3D-Cube/" scrolling="no"></iframe>
     <button onclick="openFullscreen('Iframe7')">Abrir em tela cheia</button>
-    <iframe id="Iframe7" src="https://sans-script.github.io/3D-Cube/" scrolling="no"></iframe>
+    <iframe id="Iframe7" src="https://sans-script.github.io/undertale-text-box/" scrolling="no"></iframe>
+    <button onclick="openFullscreen('Iframe8')">Abrir em tela cheia</button>
+    <iframe id="Iframe8" src="https://sans-script.github.io/digital-clock-am-pm/" scrolling="no"></iframe>
     <button id="starclick">Clica na estrelinha</button>
     <iframe src="hehehehe/index.html" scrolling="no"></iframe>
   </section>
-  <footer>
+  <!-- <div class="formdiv">
+    <div class="linecontact"></div>
+    <form autocomplete="off" class="form" action="https://formsubmit.co/alexhere.user@gmail.com" method="POST" data-form>
+    <h1>Contato</h1>
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="#">
+    <input type="text" name="nome" placeholder="Nome" required />
+    <input type="email" name="email" placeholder="E-mail" autocomplete="off" required />
+    <input type="text" name="assunto" placeholder="Assunto" required />
+    <input type="hidden" name="_next" value="http://127.0.0.1:3000/thanks.html"/>
+    <textarea name="messagem" placeholder="Messagem" required="required" style="resize: none"></textarea>
+    <div class="formbtn"><button id="btnSubmit" class="btn" type="submit" data-button>Enviar</button></div>
+  </form>
+  </div> -->
+  <footer id="contact">
     <ul class="socialfooter">
       <li><a href="https://codepen.io/sans-script"><i class="fa-brands fa-codepen"></i></a></li>
       <li><a href="https://github.com/sans-script"><i class="fa-brands fa-github"></i></a></li>
