@@ -316,7 +316,7 @@ body {
 }
 
 .tools {
-  max-width: 90%;
+  max-width: 700px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -337,11 +337,12 @@ body {
 
 .skills {
   margin: 0 auto;
+  padding: 5px;
   color: #fff;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
   border: solid 1px #fff;
-  width: 150px;
+  width: 250px;
   margin-bottom: 20px;
   background: #000;
 }
@@ -545,8 +546,10 @@ body {
   margin: 10px;
 }
 
-#Iframe8 {
+#Iframe9 {
   border-bottom: 2px solid #fff;
+}#Iframe2 {
+  border-bottom: 3px solid #fff;
 }
 
 iframe {
